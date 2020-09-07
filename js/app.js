@@ -66,15 +66,12 @@ if(dogs==cats==fish=='yes'){
 var opinion = prompt('did you love this game?','yes or no');
 console.log('did you love this game?'+opinion);
 
-if(opinion==dogs==cats==fish=='yes'){
+if(opinion=='yes'){
     alert('you have win 100 dollers !!!');
     console.log('you have win 100 dollers !!!');
-}if(opinion==dogs==cats==fish=='no'){
-    alert('thank you for playing the game,dollers still in your pucket');
-    console.log('thank you for playing the game,dollers still in your pucket');
 }else{
-    alert('thank you for playing the game,you win 50 dollers and still have one pet or two you count');
-    console.log('thank you for playing the game,you win 50 dollers and still have one pet or two you count');
+    alert('thank you for playing the game');
+    console.log('thank you for playing the game');
 }
 
 var thank =prompt('did you enjoy','yes or no')
