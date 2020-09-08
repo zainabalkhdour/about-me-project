@@ -1,170 +1,152 @@
 'use strict';
+var score = 0;
 
-/*if ( nationality = 'yes'){
-    alert('hello jordanian lets finish this game');
-    console.log('hello jordanian lets finish this game');
-    
-}
-if( nationality='no' ){
-   var foriegnNational = prompt( 'please write down your nationality')
-   console.log(foriegnNational + '' + nationality);
-   alert(' hey '+''+ foriegnNational + 'friend happy to have you here, lets play geussing') ;
-   console.log(' hey '+''+ foriegnNational + 'friend happy to have you here, lets play geussing');
-}
-*/ "this our code below" /*
-var name = prompt('what is your name?');
-console.log('what is your name?'+''+name);
-alert('weclcome'+''+name);
-console.log('weclcome'+''+name);
 
-var cats = prompt('do you love cats?','yes or no');
-// console.log('do you love cats?'+ cats);
-if (cats == 'yes') {
-    alert('do you love cats?'+ cats);
-    console.log('good for you, cats lovely animals');
+   var cats = prompt( 'do i love cats? please answer (yes/no) or (y/n) ').toLowerCase();
+   if(cats=='yes' || cats =='y')
+   {
+    alert('unforetunatly no');
+    //console.log('unforetunatly no');
+   }
+   else if ( cats == 'no' || cats== 'n'){
+       alert('correct');
+       //console.log('correct');
+       
+       score++
+   }else{
+       alert('wrong input');
+       //console.log('wrong input');
+       
+   }
+ //---------------------------------------------------------------
+ var code = prompt( 'do i study coding? please answer (yes/no) or (y/n) ').toLowerCase();
+ if(code=='yes' || code =='y')
+ {
+  alert('correct');
+  //console.log('correct')
+  score++
+ }
+ else if ( code == 'no' || code== 'n'){
+     alert('not correct');
+     //console.log(' not correct');
+     
+ }else{
+     alert('wrong input');
+    // console.log('wrong input');
+ }
+ //---------------------------------------------------------------
+ var gender = prompt( 'am i female? please answer (yes/no) or (y/n) ').toLowerCase();
+ if(gender=='yes' || gender =='y')
+ {
+  alert('yes am a female');
+  //console.log('yes am a female');
+  score++
+ }
+ else if ( gender == 'no' || gender== 'n'){
+     alert(' not correct')
+     //console.log(' not correct');
+     
+ }else{
+     alert('wrong input');
+     //console.log('wrong input');
+ } 
+ 
+ //---------------------------------------------------------------
 
-} else {
-    alert('good for you they are scarey');
-console.log('good for you they are scarey');
-    
-}
-
-var fish = prompt ('do you love fish?','yes or no');
-console.log('do you love fish?'+ fish);
-
-if (cats == fish =='yes') {
-    alert(' the cats eat the fish, you have one pet now');
-    console.log(' the cats eat the fish, you have one pet now');
-    
-} if (cats== fish== 'no') {
-    alert(' cats eat the fish ,you will lose the fish but you don\'t have one '); 
-    console.log(' cats eat the fish ,you will lose the fish but you don\'t have one ');
-} else{
-    alert('give the fish to the cat he\'s hungry');
-    console.log('give the fish to the cat he\'s hungry');
-}
-
-var dogs =  prompt ('do you love dogs?','yes or no');
-console.log('do you love dogs?'+dogs);
-
-if(dogs==cats==fish=='yes'){
-    alert('you lose your cat,kick out your dog');
-    console.log('you lose your cat,kick out your dog');
-}if(dogs==cats==fish=='no'){
-    alert ('you have not got in problems, good');
-    console.log('you have not got in problems, good');
-
-}if (dogs=='yes') {
-    alert('good choice'+name);
-    console.log('good choice'+name);
-    
-}else{
-    alert('your cat alive , good for you');
-    console.log('your cat alive , good for you');
-}
-
-var opinion = prompt('did you love this game?','yes or no');
+var opinion = prompt('did you love this game?please answer (yes/no) or(y/n)').toLowerCase();
 console.log('did you love this game?'+opinion);
 
-if(opinion=='yes'){
+if(opinion =='yes' || opinion =='y'){
     alert('you have win 100 dollers !!!');
-    console.log('you have win 100 dollers !!!');
-}else{
+    //console.log('you have win 100 dollers !!!');
+    score++
+   
+}else if (opinion=='no' || opinion=='n'){
     alert('thank you for playing the game');
-    console.log('thank you for playing the game');
+   // console.log('thank you for playing the game');
+}else{
+    alert('wrong input');
+    //console.log('wrong input');
 }
 
-var thank =prompt('did you enjoy','yes or no')
-switch (thank.toLocaleLowerCase){
-    case 'yes':
-        console.log('yes');
-       
+//---------------------------------------------------------------
+var thank =prompt('did you enjoy','yes or no').toLowerCase();
+switch (thank){
+    case (thank=='yes' || thank =='y'):
+      //  console.log('yes');
+        alert('thank you');
+       score++
         break;
-    case 'no':
-        console.log('no');
+    case ( thank == 'no' || thank== 'n') :
+        alert('so sad for that');
+       // console.log('no');
         break;
         
         default :
-        console.log('yes');
+        alert('bad input')
+        //console.log('yes');
         break;
         
 }
+//---------------------------------------------------------------
 
-*/
+var myNum = 15;
+var notpass=true
 
-
-// // what is the number of my sibilings
-// var family=prompt('what is the number of my sibilings?');
-// console.log('what is the number of my sibilings?'+' ' +family);// 0+1/1+1/2+1/3
-
-// for (let counter = 1;( (family != 8) !  (counter != 4)) ; counter++) {
-//     if(0>=family>=4) {
-//         var attempt = counter;
-//         console.log(attempt);
-//         alert('too low , used'+ attempt);
-//         console.log('too low , used'+ attempt);
-    
-        
-//     }else if(5>=family>=7){
-//         var attempt = counter;
-//         console.log(attempt);
-//         alert('too close , used'+ attempt);
-//         console.log('too close, used'+ attempt);
-//     }else if(9 <= family){
-//         var attempt = counter;
-//         console.log(attempt);
-//         alert('too high , used'+ attempt);
-//         console.log('too high, used'+ attempt);
-
-//     }else{
-//         var attempt = counter;
-//         console.log(attempt);
-//         alert('correct!!'+' '+ family);
-//         console.log('correct!!'+' '+ family);  
-//         break;
-//     }
-    
-// }
-// what is the number of my sibilings
-var family=prompt('what is the number of my sibilings?');
-console.log('what is the number of my sibilings?'+' ' +family);// 0+1/1+1/2+1/3
-
-if (0<=family<=4) {
-    for(let counter=1; counter != 4 ;counter++){
-        var attempt = counter;
-        console.log(attempt);
-        alert('too low , used'+ attempt);
-        console.log('too low , used'+ attempt);
-        family=prompt('what is the number of my sibilings?');
-        console.log('what is the number of my sibilings?'+' ' +family);
-      
+//i=0 i=1  i=2 i=3 
+for (var i=0 ;i<4;i++){
+    var useerNum =Number( prompt('geuss my number from 10-20 !'));
+    if( useerNum ==myNum ){
+        alert('correct answer !');
+        console.log('correct answer !');
+        notpass=false;
+        score++
+        break;
+    }else if (useerNum>myNum){
+        alert('too high');
+        console.log('too high');
+    }else if (useerNum<myNum){
+        alert('too low');
+        console.log('too low');
+    }else{
+        alert('string not allowed');
+        console.log('string not allowed');
     }
-    
-} else if (5<=family<=7){
-    for(let counter=1; counter != 4 ;counter++){
-        var attempt = counter;
-        console.log(attempt);
-        alert('too close , used'+ attempt);
-        console.log('too close, used'+ attempt);
-        family=prompt('what is the number of my sibilings?');
-        console.log('what is the number of my sibilings?'+' ' +family);
-       
-    }
-} else if (9<=family){
-    for(let counter=1; counter != 4 ;counter++){
-        var attempt = counter;
-        console.log(attempt);
-        alert('too high , used'+ attempt);
-        console.log('too high, used'+ attempt);
-        family=prompt('what is the number of my sibilings?');
-        console.log('what is the number of my sibilings?'+' ' +family);
-    }
-
-
-}else{
-        var attempt = counter;
-        console.log(attempt);
-        alert('correct!!'+' '+ family);
-        console.log('correct!!'+' '+ family);
 }
+if(notpass){
+    alert('the correct answer is '+myNum);
+    console.log('the correct answer is '+myNum);
+}
+
+
+
+
+//---------------------------------------------------------------
+var provincies= ['amman','madaba','almafraq','irbid'];
+var o = 0
+notpass=true
+while (o < 6) {
+    var usergeuss = prompt('what are the cities names in jordan?').toLowerCase();
+    console.log('what are the cities names in jordan?'+ usergeuss);
+    for (var x = 0; x < provincies.length; x++) {
+        if (usergeuss == provincies[x]) {
+            alert('correct !!');
+            console.log('correct !!')
+            notpass=false;
+            score++
+            break;
+        }
+
+    }
+if(!notpass)
+break;
+o++;   
+}
+
+if(notpass){
+    alert('the correct answers are '+ provincies);
+    console.log('the correct answers are '+ provincies);
+}
+//------------------------------------------------------------------
+console.log (score);
 
