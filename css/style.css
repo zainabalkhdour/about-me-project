@@ -43,7 +43,7 @@ img{
 
  span{
      background-color: black;
-     color: blanchedalmond;
+     color: rgb(255, 255, 255);
      font-size: 17px;
  }
 
@@ -55,13 +55,87 @@ img{
   
 }
 
+#top-edu{
+    
+    border:10px solid rgba(240, 128, 128, 0.226)  ;
+    background-clip: padding-box;
+    height: 265px;
+}
+#topten{
+    background-color: papayawhip;
+    width: 500px;
+    padding: 15px;
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 8px;
+    font-family: sans-serif;
+    border: 5px double crimson;
+}
+
+#edu-exp{
+    background-color: papayawhip;
+    width: 500px;
+    padding: 15px;
+    float: left;
+    height: 176px;
+    position: relative;
+    left: 250px;
+    top: 21px;
+    font-family: sans-serif;
+    border: 5px double crimson;
+}
+
+#p3{
+    FONT-SIZE: 14pt;
+
+}
+ol {
+    list-style: decimal;
+    position: relative;
+    left: 19px;
+    color: darkcyan;
+    line-height: normal;
+
+}
+#p4{
+    FONT-SIZE: 14pt;
+
+}
+
+ul {
+    list-style: disc;
+    position: relative;
+    left: 19px;
+    color: darkcyan;
+    line-height: normal;
+}
+
+#ten{
+    background-color: rgba(0, 0, 0, 0);
+    color: crimson;
+    font-size: 18pt;
+    font-weight: bold;  
+}
 footer{
     background-color: lightcoral;
     text-align: center;
     color: white;
     height: 65px;
-
     
+}
+input{
+    width: 350px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #811818, #f062928f);
+    border-color: violet;
+    border-radius: 12px;
+    position: relative;
+    left: 575px;
+    top: 15px;
+    color: whitesmoke;
+    font-weight: bold;
+
 }
 
 #sf{

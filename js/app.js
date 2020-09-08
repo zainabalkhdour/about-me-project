@@ -11,7 +11,7 @@ if( nationality='no' ){
    alert(' hey '+''+ foriegnNational + 'friend happy to have you here, lets play geussing') ;
    console.log(' hey '+''+ foriegnNational + 'friend happy to have you here, lets play geussing');
 }
-*/
+*/ "this our code below" /*
 var name = prompt('what is your name?');
 console.log('what is your name?'+''+name);
 alert('weclcome'+''+name);
@@ -88,5 +88,83 @@ switch (thank.toLocaleLowerCase){
         console.log('yes');
         break;
         
+}
+
+*/
+
+
+// // what is the number of my sibilings
+// var family=prompt('what is the number of my sibilings?');
+// console.log('what is the number of my sibilings?'+' ' +family);// 0+1/1+1/2+1/3
+
+// for (let counter = 1;( (family != 8) !  (counter != 4)) ; counter++) {
+//     if(0>=family>=4) {
+//         var attempt = counter;
+//         console.log(attempt);
+//         alert('too low , used'+ attempt);
+//         console.log('too low , used'+ attempt);
+    
+        
+//     }else if(5>=family>=7){
+//         var attempt = counter;
+//         console.log(attempt);
+//         alert('too close , used'+ attempt);
+//         console.log('too close, used'+ attempt);
+//     }else if(9 <= family){
+//         var attempt = counter;
+//         console.log(attempt);
+//         alert('too high , used'+ attempt);
+//         console.log('too high, used'+ attempt);
+
+//     }else{
+//         var attempt = counter;
+//         console.log(attempt);
+//         alert('correct!!'+' '+ family);
+//         console.log('correct!!'+' '+ family);  
+//         break;
+//     }
+    
+// }
+// what is the number of my sibilings
+var family=prompt('what is the number of my sibilings?');
+console.log('what is the number of my sibilings?'+' ' +family);// 0+1/1+1/2+1/3
+
+if (0<=family<=4) {
+    for(let counter=1; counter != 4 ;counter++){
+        var attempt = counter;
+        console.log(attempt);
+        alert('too low , used'+ attempt);
+        console.log('too low , used'+ attempt);
+        family=prompt('what is the number of my sibilings?');
+        console.log('what is the number of my sibilings?'+' ' +family);
+      
+    }
+    
+} else if (5<=family<=7){
+    for(let counter=1; counter != 4 ;counter++){
+        var attempt = counter;
+        console.log(attempt);
+        alert('too close , used'+ attempt);
+        console.log('too close, used'+ attempt);
+        family=prompt('what is the number of my sibilings?');
+        console.log('what is the number of my sibilings?'+' ' +family);
+       
+    }
+} else if (9<=family){
+    for(let counter=1; counter != 4 ;counter++){
+        var attempt = counter;
+        console.log(attempt);
+        alert('too high , used'+ attempt);
+        console.log('too high, used'+ attempt);
+        family=prompt('what is the number of my sibilings?');
+        console.log('what is the number of my sibilings?'+' ' +family);
+    }
+
+
+}else{
+        var attempt = counter;
+        console.log(attempt);
+        alert('correct!!'+' '+ family);
+        console.log('correct!!'+' '+ family);
 }
 
