@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*if ( nationality = 'yes'){
     alert('hello jordanian lets finish this game');
@@ -82,9 +82,11 @@ switch (thank.toLocaleLowerCase){
         break;
     case 'no':
         console.log('no');
-        
         break;
+        
         default :
         console.log('yes');
+        break;
         
 }
+
