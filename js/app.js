@@ -1,8 +1,8 @@
 'use strict';
 var score = 0;
 
-
-   var cats = prompt( 'do i love cats? please answer (yes/no) or (y/n) ').toLowerCase();
+function pets() {
+  var cats = prompt( 'do i love cats? please answer (yes/no) or (y/n) ').toLowerCase();
    if(cats=='yes' || cats =='y')
    {
     alert('unforetunatly no');
@@ -17,9 +17,12 @@ var score = 0;
        alert('wrong input');
        //console.log('wrong input');
        
-   }
+   }  
+}
+pets();
  //---------------------------------------------------------------
- var code = prompt( 'do i study coding? please answer (yes/no) or (y/n) ').toLowerCase();
+function coding() {
+     var code = prompt( 'do i study coding? please answer (yes/no) or (y/n) ').toLowerCase();
  if(code=='yes' || code =='y')
  {
   alert('correct');
@@ -34,8 +37,11 @@ var score = 0;
      alert('wrong input');
     // console.log('wrong input');
  }
+}
+coding();
  //---------------------------------------------------------------
- var gender = prompt( 'am i female? please answer (yes/no) or (y/n) ').toLowerCase();
+ function gender() {
+    var gender = prompt( 'am i female? please answer (yes/no) or (y/n) ').toLowerCase();
  if(gender=='yes' || gender =='y')
  {
   alert('yes am a female');
@@ -49,11 +55,14 @@ var score = 0;
  }else{
      alert('wrong input');
      //console.log('wrong input');
- } 
+ }   
+ }
+ gender();
+
  
  //---------------------------------------------------------------
-
-var opinion = prompt('did you love this game?please answer (yes/no) or(y/n)').toLowerCase();
+function openion() {
+    var opinion = prompt('did you love this game?please answer (yes/no) or(y/n)').toLowerCase();
 console.log('did you love this game?'+opinion);
 
 if(opinion =='yes' || opinion =='y'){
@@ -69,8 +78,11 @@ if(opinion =='yes' || opinion =='y'){
     //console.log('wrong input');
 }
 
+}
+openion();
 //---------------------------------------------------------------
-var thank =prompt('did you enjoy','yes or no').toLowerCase();
+function thank() {
+  var thank =prompt('did you enjoy','yes or no').toLowerCase();
 switch (thank){
     case (thank=='yes' || thank =='y'):
       //  console.log('yes');
@@ -87,10 +99,12 @@ switch (thank){
         //console.log('yes');
         break;
         
+}  
 }
+thank();
 //---------------------------------------------------------------
-
-var myNum = 15;
+function guess() {
+    var myNum = 15;
 var notpass=true
 
 //i=0 i=1  i=2 i=3 
@@ -118,11 +132,15 @@ if(notpass){
     console.log('the correct answer is '+myNum);
 }
 
+}
 
 
+guess();
 
 //---------------------------------------------------------------
-var provincies= ['amman','madaba','almafraq','irbid'];
+function cities()
+ {
+    var provincies= ['amman','madaba','almafraq','irbid'];
 var o = 0
 notpass=true
 while (o < 6) {
@@ -147,6 +165,8 @@ if(notpass){
     alert('the correct answers are '+ provincies);
     console.log('the correct answers are '+ provincies);
 }
+}
+cities();
 //------------------------------------------------------------------
 console.log (score);
 
