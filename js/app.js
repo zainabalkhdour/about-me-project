@@ -142,7 +142,7 @@ function cities()
  {
     var provincies= ['amman','madaba','almafraq','irbid'];
 var o = 0
-notpass=true
+var notpass=true
 while (o < 6) {
     var usergeuss = prompt('what are the cities names in jordan?').toLowerCase();
     console.log('what are the cities names in jordan?'+ usergeuss);
