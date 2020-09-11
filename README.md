@@ -8,6 +8,11 @@
 **To get to the content you need only internet**
 **This content is broad open-source MIT license**
 
++ _you will have javascript file that have the codes of pop-up windows_
++ _css file contine the style of webpage_
++ _.gitignore file and .eslintrc.json_
++ _images file_ 
+
 
 ### **Driver: Zainab alkhdour
  ### *** Navigator: Diala abedulqader
