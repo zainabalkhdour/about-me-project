@@ -6,16 +6,13 @@ function pets() {
    if(cats=='yes' || cats =='y')
    {
     alert('unforetunatly no');
-    //console.log('unforetunatly no');
    }
    else if ( cats == 'no' || cats== 'n'){
        alert('correct');
-       //console.log('correct');
        
        score++
    }else{
        alert('wrong input');
-       //console.log('wrong input');
        
    }  
 }
@@ -26,16 +23,13 @@ function coding() {
  if(code=='yes' || code =='y')
  {
   alert('correct');
-  //console.log('correct')
   score++
  }
  else if ( code == 'no' || code== 'n'){
      alert('not correct');
-     //console.log(' not correct');
      
  }else{
      alert('wrong input');
-    // console.log('wrong input');
  }
 }
 coding();
@@ -45,16 +39,13 @@ coding();
  if(gender=='yes' || gender =='y')
  {
   alert('yes am a female');
-  //console.log('yes am a female');
   score++
  }
  else if ( gender == 'no' || gender== 'n'){
      alert(' not correct')
-     //console.log(' not correct');
      
  }else{
      alert('wrong input');
-     //console.log('wrong input');
  }   
  }
  gender();
@@ -67,15 +58,12 @@ console.log('did you love this game?'+opinion);
 
 if(opinion =='yes' || opinion =='y'){
     alert('you have win 100 dollers !!!');
-    //console.log('you have win 100 dollers !!!');
     score++
    
 }else if (opinion=='no' || opinion=='n'){
     alert('thank you for playing the game');
-   // console.log('thank you for playing the game');
 }else{
     alert('wrong input');
-    //console.log('wrong input');
 }
 
 }
@@ -85,18 +73,15 @@ function thank() {
   var thank =prompt('did you enjoy','yes or no').toLowerCase();
 switch (thank){
     case (thank=='yes' || thank =='y'):
-      //  console.log('yes');
         alert('thank you');
        score++
         break;
     case ( thank == 'no' || thank== 'n') :
         alert('so sad for that');
-       // console.log('no');
         break;
         
         default :
         alert('bad input')
-        //console.log('yes');
         break;
         
 }  
