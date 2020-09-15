@@ -97,24 +97,24 @@ for (var i=0 ;i<4;i++){
     var useerNum =Number( prompt('geuss my number from 10-20 !'));
     if( useerNum ==myNum ){
         alert('correct answer !');
-        console.log('correct answer !');
+       
         notpass=false;
         score++
         break;
     }else if (useerNum>myNum){
         alert('too high');
-        console.log('too high');
+        
     }else if (useerNum<myNum){
         alert('too low');
-        console.log('too low');
+        
     }else{
         alert('string not allowed');
-        console.log('string not allowed');
+        
     }
 }
 if(notpass){
     alert('the correct answer is '+myNum);
-    console.log('the correct answer is '+myNum);
+    
 }
 
 }
@@ -130,11 +130,11 @@ var o = 0
 var notpass=true
 while (o < 6) {
     var usergeuss = prompt('what are the cities names in jordan?').toLowerCase();
-    console.log('what are the cities names in jordan?'+ usergeuss);
+    
     for (var x = 0; x < provincies.length; x++) {
         if (usergeuss == provincies[x]) {
             alert('correct !!');
-            console.log('correct !!')
+           
             notpass=false;
             score++
             break;
@@ -148,10 +148,10 @@ o++;
 
 if(notpass){
     alert('the correct answers are '+ provincies);
-    console.log('the correct answers are '+ provincies);
+    
 }
 }
 cities();
 //------------------------------------------------------------------
-console.log (score);
-
+alert('your score is : '+ score);
+console.log(alert('your score is : '+ score));
